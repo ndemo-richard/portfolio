@@ -27,6 +27,67 @@ body {
     background-color: inherit;
     box-shadow: 0em 0em 0.1em 0.1em #303030;
   }
+  /* stufff
+  
+  */
+
+  nav {
+    background: green;
+    border-bottom: 1px solid #ebebeb;
+    padding: 1em;
+  }
+  nav ul {
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav ul li {
+    text-align: center;
+    padding: 1em;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: blue;
+  }
+  nav ul li a:hover {
+    color: green;
+  }
+  nav ul li.active a {
+    color: black;
+  }
+
+  /*hide checkbox input element*/
+  #menu-toggle {
+    opacity: 0;
+  }
+
+  /* Show menu when #menu-toggle checkbox is checked, use ~*/
+  #menu-toggle:checked ~ #menu {
+    display: flex;
+  }
+
+  #menu-icon {
+    position: relative;
+    float: right;
+  }
+  #menu-icon span {
+    display: block;
+    background: blue;
+    width: 24px;
+    height: 3px;
+    margin: 4px;
+    border-radius: 3px;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+
+  /*end of stuff
+  
+  */
   .main {
     position: relative;
     display: block;
@@ -93,10 +154,11 @@ body {
     width: 50%;
     text-align: center;
   }
-  h4 {
+  .h4 {
     text-align: center;
     width: 50%;
     color: #91f8f1;
+    text-decoration: none;
   }
 
   .portfolio {
