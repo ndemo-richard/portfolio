@@ -1,118 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ndemo  Richard</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <script src="https://kit.fontawesome.com/167ca9daea.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
-<div class="wrapper">
-    <div class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ndemo Richard</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/167ca9daea.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
         <div class="navbar">
-            <nav>
-            <input id="menu-toggle" type="checkbox" onclick="blurBackground(this)">
+          <nav>
+            <input
+              id="menu-toggle"
+              type="checkbox"
+              onclick="blurBackground(this)"
+            />
             <label id="mobile-menu-label" for="menu-toggle">
-                <span id="menu-icon">
-                    <span></span>
-                    <span class="center_span"></span>
-                    <span></span>
-                </span>
+              <span id="menu-icon">
+                <span></span>
+                <span class="center_span"></span>
+                <span></span>
+              </span>
             </label>
 
             <ul id="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">My skills</a></li>
-                <li><a href="">portfolio</a></li>
-                <li><a href="">Hire me</a></li>
+              <li><a href="">Home</a></li>
+              <li><a href="">My skills</a></li>
+              <li><a href="">portfolio</a></li>
+              <li><a href="">Hire me</a></li>
             </ul>
-            </nav>
-            </div>
-            <div class="section">
-            <div class="main">
-                <div class="bg_img"></div>
-                <div class="main_content">
-                <div class="header_content">
-                    <h3>Hi</h3>
-                    <h1>I build Amazing Experience</h1>
-                    <h3>Software Developer</h3>
-                </div>
-                <img class="head" src="assets/img/head_pic.png" alt="head">
-                </div>
-            </div>
-            <div class="portfolio_wrapper">
-                <div class="title_link">
-                    <h2>My work</h2>
-                    <a class="h4" href="/">
-                    <h4><span class="caret_down"><i class="fas fa-caret-down"></i></span>  view all my work</h4>
-                     </a>
-                </div>
-                <div class="portfolio">
-                    <div class="card_container">
-                        <a class="card" href="/">
-                    <div >
-                        <img class="card_img" src="assets/img/daju.png" alt="card1">
-                        <div class="card_content">
-                            <span class="card_link"><i class="fas fa-ellipsis-v"></i></span>
-                            <h3>Nice Title</h3>
-                            <p>some descriptions of the projects i did and the best posible solution it offered</p>
-                        </div>
-                    </div>
-                    </a>
-                    <a class="card" href="/">
-                    <div >
-                        <img class="card_img" src="assets/img/village.png" alt="card1">
-                        <div class="card_content">
-                            <span class="card_link"><i class="fas fa-ellipsis-v"></i></span>
-                            <h3>Nice Title</h3>
-                            <p>some descriptions of the projects i did and the best posible solution it offered</p>
-                        </div>
-                    </div>
-                    </a>
-                    <a class="card" href="/">
-                    <div >
-                        <img class="card_img" src="assets/img/kemnan.png" alt="card1">
-                        <div class="card_content">
-                            <span class="card_link"><i class="fas fa-ellipsis-v"></i></span>
-                            <h3>Nice Title</h3>
-                            <p>some descriptions of the projects i did and the best posible solution it offered</p>
-                        </div>
-                    </div>
-                    </a>
-                    <a class="card" href="/">
-                    <div >
-                        <img class="card_img" src="assets/img/eabl.png" alt="card1">
-                        <div class="card_content">
-                            <span class="card_link"><i class="fas fa-ellipsis-v"></i></span>
-                            <h3>Nice Title</h3>
-                            <p>some descriptions of the projects i did and the best posible solution it offered</p>
-                        </div>
-                    </div>
-                    </a>
-                    </div>
-                </div>
-            </div>
-            </div>
-        <div class="taskbar">
-            <a class="btn_link" href="/">
-            <div ><span class="icon"><i class="material-icons">call</i></span><h5>Hire me</h5></div>
-            </a>
-            <a class="btn_link" href="/">
-            <div ><span class="icon"><i class="material-icons">view_list</i></span>
-                <h5>Skills</h5>
-            </div>
-        </a>
-            <a class="btn_link" href="/">
-            <div ><span class="icon"><i class="material-icons">source</i></span>
-                <h5>portfolio</h5>
-            </div>
-            </a>
+          </nav>
         </div>
+        <div class="section">
+          <div class="main">
+            <div class="bg_img"></div>
+            <div class="main_content">
+              <div class="header_content">
+                <h3 class="greeting">Hi</h3>
+                <h1 class="lead">I build Amazing Experience</h1>
+                <h3 class="greeting">Software Developer</h3>
+              </div>
+              <img class="head" src="assets/img/head_pic.png" alt="head" />
+            </div>
+          </div>
+          <div class="portfolio_wrapper">
+            <div class="title_link">
+              <h2>My work</h2>
+              <a class="h4" href="/">
+                <h4>
+                  <span class="caret_down"
+                    ><i class="fas fa-caret-down"></i
+                  ></span>
+                  view all my work
+                </h4>
+              </a>
+            </div>
+            <div class="portfolio">
+              <div class="card_container">
+                <a class="card" href="/">
+                  <div>
+                    <img
+                      class="card_img"
+                      src="assets/img/daju.png"
+                      alt="card1"
+                    />
+                    <div class="card_content">
+                      <span class="card_link"
+                        ><i class="fas fa-ellipsis-v"></i
+                      ></span>
+                      <h3>Nice Title</h3>
+                      <p>
+                        some descriptions of the projects i did and the best
+                        posible solution it offered
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a class="card" href="/">
+                  <div>
+                    <img
+                      class="card_img"
+                      src="assets/img/village.png"
+                      alt="card1"
+                    />
+                    <div class="card_content">
+                      <span class="card_link"
+                        ><i class="fas fa-ellipsis-v"></i
+                      ></span>
+                      <h3>Nice Title</h3>
+                      <p>
+                        some descriptions of the projects i did and the best
+                        posible solution it offered
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a class="card" href="/">
+                  <div>
+                    <img
+                      class="card_img"
+                      src="assets/img/kemnan.png"
+                      alt="card1"
+                    />
+                    <div class="card_content">
+                      <span class="card_link"
+                        ><i class="fas fa-ellipsis-v"></i
+                      ></span>
+                      <h3>Nice Title</h3>
+                      <p>
+                        some descriptions of the projects i did and the best
+                        posible solution it offered
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a class="card" href="/">
+                  <div>
+                    <img
+                      class="card_img"
+                      src="assets/img/eabl.png"
+                      alt="card1"
+                    />
+                    <div class="card_content">
+                      <span class="card_link"
+                        ><i class="fas fa-ellipsis-v"></i
+                      ></span>
+                      <h3>Nice Title</h3>
+                      <p>
+                        some descriptions of the projects i did and the best
+                        posible solution it offered
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tech_stack">
+          <div class="about">
+            <h2>About myself</h2>
+            <h4>I am Richard Ndemo</h4>
+
+            <p>
+              a software developer and designer with experience in developing
+              fullstack applications, in search for a position where i can
+              assist to solve It related problems to meet business needs.
+            </p>
+          </div>
+          <div class="skills">
+            <h2>professional skills</h2>
+            <div class="col1">
+              <h3 class="skills_heading">programming :</h3>
+              <ul class="skills_list">
+                <li>Java</li>
+                <li>python</li>
+                <li>javascript</li>
+              </ul>
+            </div>
+            <div class="col1">
+              <h3 class="skills_heading">scripting :</h3>
+              <ul class="skills_list">
+                <li>Bash</li>
+                <li>LaTex</li>
+              </ul>
+            </div>
+            <div class="col1">
+              <h3 class="skills_heading">Data markup standards :</h3>
+              <ul class="skills_list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Markdown</li>
+              </ul>
+            </div>
+            <div class="col1">
+              <h3 class="skills_heading">ICT :</h3>
+              <ul class="skills_list">
+                <li>Network installation and maintenance</li>
+                <li>system administration</li>
+              </ul>
+            </div>
+          </div>
+          <!--end of skills-->
+          <div class="system">
+            <h2>My tech setup</h2>
+            <p>this is my preferred system setup ...am always changing</p>
+            <ul class="system_list">
+              <li>operating system : Linux {archlinux} /windows 10</li>
+              <li>text editor : vim / vscode</li>
+              <li>browser: firefox</li>
+              <li>word processor : libreoffice</li>
+              <li>computer : elitebook</li>
+            </ul>
+          </div>
+          <!--end of system-->
+          <div class="education">
+            <h2>Education background</h2>
+            <p>
+              graduated from Masinde muliro university of science and technology
+              with a Bsc Information Technology
+            </p>
+            <!--<p>
+              <cite></cite>
+                Education is the most powerful weapon which you can use to
+                change the world</cite>
+              -Nelson Mandela
+            </p>-->
+          </div>
+          <!--end of education-->
+          <div class="library">
+            <h2>my library</h2>
+            <ul>
+              <li>Holly bible</li>
+              <li>
+                Success is Never Ending Failure is Never Final by Robert H.
+                Schuller
+              </li>
+              <li>
+                Tao te ching english version by Gia-fu Feng &amp; Jabe English
+              </li>
+              <li>
+                The complete church guide to Saving Money and Buying Smart
+              </li>
+            </ul>
+          </div>
+          <!--end of books-->
+          <!--
+          <div class="hobbies">
+            <h5>For my hobbies...</h5>
+            <h6>am yet to master myself</h6>
+            <p>this are the things i would wish to accomplish</p>
+            <ul>
+              <li>skydiving</li>
+              <li>travelling the world eating exotic food</li>
+            </ul>
+            <p>
+              am fascinated about blockchain technology and i always research on
+              it.
+            </p>
+          </div> -->
+          <!--end of hobbies-->
+          <div class="contact">
+            <h2>You can reach me through</h2>
+            <div class="contact_list">
+              <ul>
+                <li>
+                  <a href="mailto:ndemorich@gmail.com" target="_blank" rel="noopener noreferrer"
+                    ><span class="social"><i class="fas fa-envelope"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/ndemo-richard" target="_blank" rel="noopener noreferrer"
+                    ><span class="social"><i class="fab fa-github"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/richard-ndemo/" target="_blank" rel="noopener noreferrer"
+                    ><span class="social"
+                      ><i class="fab fa-linkedin-in"></i></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="form_container">
+              <form id="contact" method="post">
+                <h3>Hello!</h3>
+                <h4>Contact me today, and get reply with in 24 hours!</h4>
+                <fieldset>
+                  <input
+                    placeholder="Your name"
+                    type="text"
+                    tabindex="1"
+                    required
+                    autofocus
+                  />
+                </fieldset>
+                <fieldset>
+                  <input
+                    placeholder="Your Email Address"
+                    type="email"
+                    tabindex="2"
+                    required
+                  />
+                </fieldset>
+                <fieldset>
+                  <textarea
+                    placeholder="Type your Message Here...."
+                    tabindex="3"
+                    required
+                  ></textarea>
+                </fieldset>
+                <fieldset>
+                  <button
+                    name="submit"
+                    type="submit"
+                    id="contact-submit"
+                    data-submit="...Sending"
+                  >
+                    Submit
+                  </button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <!--end of contact-->
+          <div class="remarks">
+            <h2>My not final thoughts</h2>
+            <p>
+              your online presence should be easy and smooth. Link up with me to
+              get the best experience.
+            </p>
+          </div>
+          <!--end of closing remarks-->
+        </div>
+        <div class="taskbar">
+          <a class="btn_link" href="/">
+            <div>
+              <span class="icon"><i class="material-icons">call</i></span>
+              <h5>Hire me</h5>
+            </div>
+          </a>
+          <a class="btn_link" href="/">
+            <div>
+              <span class="icon"><i class="material-icons">view_list</i></span>
+              <h5>Skills</h5>
+            </div>
+          </a>
+          <a class="btn_link" href="/">
+            <div>
+              <span class="icon"><i class="material-icons">source</i></span>
+              <h5>portfolio</h5>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
-</div>
     <script src="assets/js/index.js"></script>
-</body>
+  </body>
 </html>
