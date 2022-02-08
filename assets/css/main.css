@@ -1,8 +1,12 @@
 html,
 body {
   background-color: #04040e;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+h1,h2,h3,h4,h5,p{
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 .wrapper {
   display: block;
   height: 100vh;
@@ -142,7 +146,7 @@ nav ul li.active a {
 }
 .greeting {
   font-size: 4vw;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /*font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;*/
   font-weight: normal;
   margin: 0;
   color: rgb(228, 228, 228);
@@ -160,6 +164,7 @@ nav ul li.active a {
   position: relative;
   width: 100%;
   height: fit-content;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .title_link {
   display: flex;
@@ -223,7 +228,7 @@ nav ul li.active a {
   color: #91f8f1;
   width: fit-content;
   height: fit-content;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+ /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;*/
   font-weight: bold;
 }
 .card_content .card_link {
@@ -248,7 +253,7 @@ nav ul li.active a {
   color: white;
   height: fit-content;
   padding-bottom: 40%;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+ /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;*/
 }
 .about {
   padding: 2%;
@@ -393,7 +398,7 @@ nav ul li.active a {
 #contact input[type="email"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font: 400 12px/16px;
   border-radius: 10px;
 }
 
@@ -406,7 +411,7 @@ nav ul li.active a {
 
 #contact h3 {
   display: block;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /*font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;*/
   font-weight: 900;
 }
 
@@ -536,7 +541,7 @@ fieldset {
 }
 .btn_link h5 {
   margin: auto;
-  font-family: Georgia, "Times New Roman", Times, serif;
+
   width: 4rem;
   position: relative;
   font-family: Georgia, "Times New Roman", Times, serif;
